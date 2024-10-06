@@ -8,7 +8,7 @@ body{
 .text-primary{
     color: #FD6E0A;
 }
-.btn-praimary{
+.btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -22,7 +22,9 @@ body{
 nav {
     display: flex;
     justify-content: space-between;
-     align-items: center;
+    align-items: center;
+    margin: 0 200px;
+
 }
 .nav-title {
     color: #181818;
@@ -32,7 +34,7 @@ nav {
     font-weight: 800;
    
 }
-nav > ul {
+nav>ul {
      display: flex;
      align-items: center;
 }
@@ -44,4 +46,16 @@ nav li {
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
